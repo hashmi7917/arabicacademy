@@ -157,8 +157,9 @@
   height: 250px;
 }
 
-#gallery .col-lg-3 .team-item {
+#gallery .team-item {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 18px !important;
 }
 
 #gallery img:hover {
@@ -219,7 +220,7 @@
 /* Parralax */
 .irc-parallax {
   /* The image used */
-  background: url("../assets/slider1.jpg");
+  background: url("../assets/images/slider1.jpg");
 
   /* Set a specific height */
   min-height: 500px;
@@ -233,7 +234,7 @@
 
 /* custom parralax */
 .custom-parallax {
-  background: url("../assets/social.jpg");
+  background: url("../assets/images/social.jpg");
   min-height: 100px;
   background-attachment: fixed;
   background-position: center;
@@ -261,7 +262,7 @@
   }
 
   #irc-slider .carousel-item:nth-child(2) {
-    background-image: url("../assets/banner2.jpg");
+    background-image: url("../assets/images/banner2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;

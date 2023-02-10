@@ -132,10 +132,7 @@ function clicked() {
   let totalNumber = 0;
   let totaldownloadsBtn = document.getElementById("totaldownloads");
   var xhr = new XMLHttpRequest();
-  xhr.open(
-    "GET",
-    "https://api.countapi.xyz/hit/myweb.com/awesomeclick"
-  );
+  xhr.open("GET", "https://api.countapi.xyz/hit/myweb.com/awesomeclick");
   xhr.responseType = "json";
   xhr.onload = function () {
     // alert(`This button has been clicked ${this.response.value} times!`);
@@ -156,10 +153,7 @@ function clicked2() {
   let totalNumber = 0;
   let totaldownloadsBtn2 = document.getElementById("totaldownloads2");
   var xhr = new XMLHttpRequest();
-  xhr.open(
-    "GET",
-    "https://api.countapi.xyz/hit/two/awesomeclick"
-  );
+  xhr.open("GET", "https://api.countapi.xyz/hit/two/awesomeclick");
   xhr.responseType = "json";
   xhr.onload = function () {
     // alert(`This button has been clicked ${this.response.value} times!`);
@@ -171,7 +165,7 @@ function clicked2() {
 
   return totalNumber;
 }
-function onBodyLoad() {
-  document.getElementById("totaldownloads").innerText = totalNumber;
-  console.log(totalNumber);
-}
+// function onBodyLoad() {
+//   document.getElementById("totaldownloads").innerText = totalNumber;
+//   console.log(totalNumber);
+// }
